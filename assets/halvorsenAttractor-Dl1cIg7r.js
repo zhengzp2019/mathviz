@@ -1,0 +1,1 @@
+function t(o=1.89){return([a,e,n])=>[-o*a-4*e-4*n-e*e,-o*e-4*n-4*a-n*n,-o*n-4*a-4*e-a*a]}const l=[-1.48,-1.51,2.04],s=[{a:1.4,label:"弱耗散",note:"a=1.4"},{a:1.89,label:"标准",note:"a=1.89 · 三重对称"},{a:2.4,label:"强耗散",note:"a=2.4"}];export{s as P,l as S,t as h};

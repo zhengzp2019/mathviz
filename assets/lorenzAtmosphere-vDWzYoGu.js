@@ -1,0 +1,1 @@
+const F={a:.25,b:4,F:8,G:1};function a(n=F){return([e,l,t])=>[-n.a*e-l*l-t*t+n.a*n.F,-l+e*l-n.b*e*t+n.G,-t+n.b*e*l+e*t]}function o(n){return a({...F,F:n})}const S=[1,1,1],b=[{F:6,label:"夏季 (F=6)",note:"温差小 · λ₁≈0.002"},{F:7,label:"春秋 (F=7)",note:"过渡 · λ₁≈0.043"},{F:8,label:"冬季 (F=8)",note:"温差大 · λ₁≈0.142"}];export{b as S,S as a,o as l};

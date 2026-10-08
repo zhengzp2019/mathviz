@@ -1,0 +1,1 @@
+const f={a:.95,b:.7,c:.6,d:3.5,e:.25,f:.1};function o(a=f){return([n,t,e])=>[(e-a.b)*n-a.d*t,a.d*n+(e-a.b)*t,a.c+a.a*e-e*e*e/3-(n*n+t*t)*(1+a.e*e)+a.f*e*n*n*n]}function l(a){return o({...f,f:a})}const c=[.1,0,0],b=[{f:0,label:"轴对称(f=0)",note:"完全回转对称"},{f:.1,label:"经典(f=0.1)",note:"对称被打破"},{f:.25,label:"强不对称",note:"f 加大"}];export{b as P,c as S,l as a};

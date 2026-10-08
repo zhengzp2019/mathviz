@@ -1,0 +1,1 @@
+const a=[-1.3,1.3],l=[-1.3,1.3];function o(t,e,n=1){return[n*t*e,n*t,n*e*e]}const s=[{scale:.7,label:"收紧",note:"伞点更明显"},{scale:1,label:"标准",note:"经典惠特尼伞"},{scale:1.4,label:"放大",note:"自交线更长"}];export{s as P,a as U,l as V,o as w};

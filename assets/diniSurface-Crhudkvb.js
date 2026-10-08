@@ -1,0 +1,1 @@
+const e=[0,4*Math.PI],h=[.05,Math.PI/2];function M(t,a,n=1,o=.2){const s=Math.sin(a);return[n*Math.cos(t)*s,n*Math.sin(t)*s,n*(Math.cos(a)+Math.log(Math.tan(a/2)))+o*t]}const c=[{a:1,b:0,label:"退化为伪球面",note:"螺距 0"},{a:1,b:.2,label:"标准迪尼曲面",note:"K = -0.96"},{a:1,b:.6,label:"拉长螺旋",note:"螺距 3.77"}];export{c as P,e as U,h as V,M as d};

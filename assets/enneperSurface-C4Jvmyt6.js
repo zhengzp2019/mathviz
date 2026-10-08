@@ -1,0 +1,1 @@
+const t=[-2,2],l=[-2,2];function o(e,n,a=1){const s=a;return[s*(e-e*e*e/3+e*n*n),s*(n-n*n*n/3+n*e*e),s*(e*e-n*n)]}const c=[{scale:.6,label:"收紧",note:"花瓣尚未相交"},{scale:1,label:"标准",note:"四片花瓣自交"},{scale:1.4,label:"放大",note:"自交更明显"}];export{c as P,t as U,l as V,o as e};

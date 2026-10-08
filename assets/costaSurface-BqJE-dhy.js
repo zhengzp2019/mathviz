@@ -1,0 +1,1 @@
+const l=[0,2*Math.PI],r=[-1,1];function R(o,t,e=.55,n=1.35){const s=1+.28*Math.cos(4*o),c=1+n*t*t,a=e*s*c;return[a*Math.cos(o),a*Math.sin(o),1.6*t]}const f=[{neckR:.42,flare:1.1,label:"细腰",note:"腰部收紧"},{neckR:.55,flare:1.35,label:"标准",note:"四叶腰 · 三端"},{neckR:.7,flare:1.7,label:"粗腰",note:"端部张开更大"}];export{f as P,l as U,r as V,R as c};

@@ -1,0 +1,1 @@
+const o=[.001,3],c=[0,2*Math.PI],n=t=>1/Math.cosh(t);function h(t,a,s=1){const e=s*n(t);return[e*Math.cos(a),e*Math.sin(a),s*(t-Math.tanh(t))]}const l=[{a:.7,label:"小伪球",note:"K = -2.04"},{a:1,label:"单位伪球",note:"K = -1"},{a:1.5,label:"大伪球",note:"K = -0.44"}];export{l as P,o as U,c as V,h as p};

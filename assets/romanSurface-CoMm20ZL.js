@@ -1,0 +1,1 @@
+const l=[0,Math.PI],r=[0,Math.PI];function M(s,n,o=1){const a=o*o,c=Math.cos(s),e=Math.sin(s),t=Math.cos(n),h=Math.sin(n);return[a*t*t*c*e,a*c*h*t,a*e*h*t]}const u=[{a:.8,label:"收紧",note:"尺度 0.64"},{a:1,label:"标准",note:"经典罗马曲面"},{a:1.3,label:"放大",note:"尺度 1.69"}];export{u as P,l as U,r as V,M as r};

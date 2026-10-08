@@ -1,0 +1,1 @@
+const M=[0,2*Math.PI],l=[0,2*Math.PI];function i(t){return[Math.sin(t),Math.sin(2*t)]}function r(t,e,c=2){const a=t/2,[n,s]=i(e),o=c+Math.cos(a)*n-Math.sin(a)*s,h=Math.sin(a)*n+Math.cos(a)*s;return[o*Math.cos(t),o*Math.sin(t),h]}const f=[{a:1.6,label:"紧凑型",note:"主半径小"},{a:2,label:"标准",note:"经典 8 字形"},{a:2.6,label:"舒展型",note:"主半径大"}];export{f as P,M as U,l as V,r as k};

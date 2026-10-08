@@ -1,0 +1,1 @@
+const e=[0,2*Math.PI],i=[0,Math.PI/2];function M(n,t,c=1){const s=Math.cos(n),h=Math.sin(n),a=Math.sin(t),o=Math.cos(t);return[s*Math.sin(2*t),h*Math.sin(2*t),c*(o*o-s*s*a*a)]}const l=[{height:.6,label:"压扁",note:"自交段变短"},{height:1,label:"标准",note:"经典交叉帽"},{height:1.8,label:"拉高",note:"自交段拉长"}];export{l as P,e as U,i as V,M as c};

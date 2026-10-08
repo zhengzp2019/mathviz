@@ -1,0 +1,1 @@
+function b(t=.208186){return([n,a,e])=>[Math.sin(a)-t*n,Math.sin(e)-t*a,Math.sin(n)-t*e]}const o=[1.1,1.1,-.01],s=[{b:.5,label:"收敛到不动点",note:"b=0.5 · 阻尼强"},{b:.32,label:"极限环",note:"b=0.32 · 周期轨道"},{b:.208186,label:"混沌",note:"b=0.208 · 缠绕管状"},{b:.1,label:"强混沌",note:"b=0.1 · 范围更大"}];export{s as P,o as S,b as t};
